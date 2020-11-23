@@ -22,7 +22,7 @@ pod 'LYHEntertainingDiversions-OC'
 
 ## Author
 
-1060566471@qq.com, 1060566471@qq.com
+LRK: 1060566471@qq.com
 
 ## License
 
