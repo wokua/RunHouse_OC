@@ -24,6 +24,8 @@
 		7CEC9963E31DAD2B696F97B2 /* Pods_LYHEntertainingDiversions_OC_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 235514BB5335E8D516224467 /* Pods_LYHEntertainingDiversions_OC_Tests.framework */; };
 		8074765B81280F953916D44C /* Pods_LYHEntertainingDiversions_OC_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB72201FAE2EEA6B58ACD6D7 /* Pods_LYHEntertainingDiversions_OC_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		E4F0C23C256BA92C002F7FAA /* LYHCustomRunHouseView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F0C239256BA92B002F7FAA /* LYHCustomRunHouseView.m */; };
+		E4F0C23D256BA92C002F7FAA /* LYHImageTitleVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F0C23A256BA92C002F7FAA /* LYHImageTitleVIew.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,12 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		17BF1AB48FBE321972B47C57 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		17BF1AB48FBE321972B47C57 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1F00979C5F08459E83458A1A /* Pods-LYHEntertainingDiversions-OC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYHEntertainingDiversions-OC_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LYHEntertainingDiversions-OC_Tests/Pods-LYHEntertainingDiversions-OC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		235514BB5335E8D516224467 /* Pods_LYHEntertainingDiversions_OC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYHEntertainingDiversions_OC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4083B612B57D9BC755EC250E /* LYHEntertainingDiversions-OC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "LYHEntertainingDiversions-OC.podspec"; path = "../LYHEntertainingDiversions-OC.podspec"; sourceTree = "<group>"; };
+		4083B612B57D9BC755EC250E /* LYHEntertainingDiversions-OC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "LYHEntertainingDiversions-OC.podspec"; path = "../LYHEntertainingDiversions-OC.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		41FF5068765C579539E45360 /* Pods-LYHEntertainingDiversions-OC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYHEntertainingDiversions-OC_Example.debug.xcconfig"; path = "Target Support Files/Pods-LYHEntertainingDiversions-OC_Example/Pods-LYHEntertainingDiversions-OC_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		527147B3819CB3D374225DBF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		527147B3819CB3D374225DBF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LYHEntertainingDiversions-OC_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LYHEntertainingDiversions-OC_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -67,6 +69,10 @@
 		A6F6240224982C170F1A44F2 /* Pods-LYHEntertainingDiversions-OC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYHEntertainingDiversions-OC_Example.release.xcconfig"; path = "Target Support Files/Pods-LYHEntertainingDiversions-OC_Example/Pods-LYHEntertainingDiversions-OC_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BB72201FAE2EEA6B58ACD6D7 /* Pods_LYHEntertainingDiversions_OC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYHEntertainingDiversions_OC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C64E6AE689C8746A346CC9AD /* Pods-LYHEntertainingDiversions-OC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYHEntertainingDiversions-OC_Tests.release.xcconfig"; path = "Target Support Files/Pods-LYHEntertainingDiversions-OC_Tests/Pods-LYHEntertainingDiversions-OC_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E4F0C238256BA92B002F7FAA /* LYHImageTitleVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYHImageTitleVIew.h; sourceTree = "<group>"; };
+		E4F0C239256BA92B002F7FAA /* LYHCustomRunHouseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYHCustomRunHouseView.m; sourceTree = "<group>"; };
+		E4F0C23A256BA92C002F7FAA /* LYHImageTitleVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYHImageTitleVIew.m; sourceTree = "<group>"; };
+		E4F0C23B256BA92C002F7FAA /* LYHCustomRunHouseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYHCustomRunHouseView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +109,6 @@
 				1F00979C5F08459E83458A1A /* Pods-LYHEntertainingDiversions-OC_Tests.debug.xcconfig */,
 				C64E6AE689C8746A346CC9AD /* Pods-LYHEntertainingDiversions-OC_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -147,6 +152,10 @@
 				6003F59C195388D20070C39A /* LYHAppDelegate.h */,
 				6003F59D195388D20070C39A /* LYHAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				E4F0C23B256BA92C002F7FAA /* LYHCustomRunHouseView.h */,
+				E4F0C239256BA92B002F7FAA /* LYHCustomRunHouseView.m */,
+				E4F0C238256BA92B002F7FAA /* LYHImageTitleVIew.h */,
+				E4F0C23A256BA92C002F7FAA /* LYHImageTitleVIew.m */,
 				6003F5A5195388D20070C39A /* LYHViewController.h */,
 				6003F5A6195388D20070C39A /* LYHViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
@@ -248,6 +257,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "1060566471@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = NGSVPN6375;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +270,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -303,10 +316,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LYHEntertainingDiversions-OC_Example/Pods-LYHEntertainingDiversions-OC_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LYHEntertainingDiversions-OC/LYHEntertainingDiversions_OC.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LYHEntertainingDiversions_OC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -366,7 +381,9 @@
 			files = (
 				6003F59E195388D20070C39A /* LYHAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LYHViewController.m in Sources */,
+				E4F0C23C256BA92C002F7FAA /* LYHCustomRunHouseView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				E4F0C23D256BA92C002F7FAA /* LYHImageTitleVIew.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +511,7 @@
 			baseConfigurationReference = 41FF5068765C579539E45360 /* Pods-LYHEntertainingDiversions-OC_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NGSVPN6375;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LYHEntertainingDiversions-OC/LYHEntertainingDiversions-OC-Prefix.pch";
 				INFOPLIST_FILE = "LYHEntertainingDiversions-OC/LYHEntertainingDiversions-OC-Info.plist";
@@ -510,6 +528,7 @@
 			baseConfigurationReference = A6F6240224982C170F1A44F2 /* Pods-LYHEntertainingDiversions-OC_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NGSVPN6375;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LYHEntertainingDiversions-OC/LYHEntertainingDiversions-OC-Prefix.pch";
 				INFOPLIST_FILE = "LYHEntertainingDiversions-OC/LYHEntertainingDiversions-OC-Info.plist";

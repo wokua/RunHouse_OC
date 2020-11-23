@@ -1,0 +1,23 @@
+PODS:
+  - LYHEntertainingDiversions-OC (0.1.0):
+    - Masonry (~> 1.1.0)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - LYHEntertainingDiversions-OC (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  LYHEntertainingDiversions-OC:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LYHEntertainingDiversions-OC: f24106241eaf02f5a53fe301baad1377821d4227
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: b955b23185458e8f17e965522dda63e85a26c03c
+
+COCOAPODS: 1.9.0.beta.2

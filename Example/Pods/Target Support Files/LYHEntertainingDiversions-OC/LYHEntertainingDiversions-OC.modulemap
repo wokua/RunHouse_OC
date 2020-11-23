@@ -1,0 +1,6 @@
+framework module LYHEntertainingDiversions_OC {
+  umbrella header "LYHEntertainingDiversions-OC-umbrella.h"
+
+  export *
+  module * { export * }
+}
