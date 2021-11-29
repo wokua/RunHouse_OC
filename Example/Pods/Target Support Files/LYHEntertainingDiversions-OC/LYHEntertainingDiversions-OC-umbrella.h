@@ -14,7 +14,7 @@
 #import "Quene.h"
 #import "UIRunHouseItem.h"
 #import "UIRunHouseView.h"
-#import "YYWeakProxy.h"
+#import "LYHWeakProxy.h"
 
 FOUNDATION_EXPORT double LYHEntertainingDiversions_OCVersionNumber;
 FOUNDATION_EXPORT const unsigned char LYHEntertainingDiversions_OCVersionString[];

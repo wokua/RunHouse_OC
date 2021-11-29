@@ -258,7 +258,7 @@
 				ORGANIZATIONNAME = "1060566471@qq.com";
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = NGSVPN6375;
+						DevelopmentTeam = DS72BW79PB;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -511,7 +511,7 @@
 			baseConfigurationReference = 41FF5068765C579539E45360 /* Pods-LYHEntertainingDiversions-OC_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NGSVPN6375;
+				DEVELOPMENT_TEAM = DS72BW79PB;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LYHEntertainingDiversions-OC/LYHEntertainingDiversions-OC-Prefix.pch";
 				INFOPLIST_FILE = "LYHEntertainingDiversions-OC/LYHEntertainingDiversions-OC-Info.plist";
@@ -528,7 +528,7 @@
 			baseConfigurationReference = A6F6240224982C170F1A44F2 /* Pods-LYHEntertainingDiversions-OC_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NGSVPN6375;
+				DEVELOPMENT_TEAM = DS72BW79PB;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LYHEntertainingDiversions-OC/LYHEntertainingDiversions-OC-Prefix.pch";
 				INFOPLIST_FILE = "LYHEntertainingDiversions-OC/LYHEntertainingDiversions-OC-Info.plist";

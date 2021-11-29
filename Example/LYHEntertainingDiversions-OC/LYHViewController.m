@@ -41,7 +41,7 @@
         if (item == nil) {
             item = [LYHCustomRunHouseView new];
         }
-        item.backgroundColor = [UIColor redColor];
+        item.backgroundColor = [UIColor greenColor];
         item.label.text = self.datas[index];
         return item;
     }else{
@@ -51,7 +51,7 @@
         }
         item.backgroundColor = [UIColor redColor];
         item.label.text = self.datas[index];
-        item.imageView.image = [UIImage imageNamed:@"Image"];
+        item.imageView.image = [UIImage imageNamed:@"image"];
         return item;
     }
    

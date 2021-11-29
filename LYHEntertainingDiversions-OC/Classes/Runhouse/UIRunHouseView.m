@@ -8,7 +8,7 @@
 
 #import "UIRunHouseView.h"
 #import "Quene.h"
-#import "YYWeakProxy.h"
+#import "LYHWeakProxy.h"
 
 @interface UIRunHouseView()
 {
@@ -39,7 +39,7 @@
 
 //初始化数据
 -(void)initData{
-    self.timer = [CADisplayLink displayLinkWithTarget:[YYWeakProxy proxyWithTarget:self] selector:@selector(run)];
+    self.timer = [CADisplayLink displayLinkWithTarget:[LYHWeakProxy proxyWithTarget:self] selector:@selector(run)];
     [self.timer addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSDefaultRunLoopMode];
     [self.timer addToRunLoop:[NSRunLoop mainRunLoop] forMode:UITrackingRunLoopMode];
     self.visibleViewArr = [NSMutableArray array];

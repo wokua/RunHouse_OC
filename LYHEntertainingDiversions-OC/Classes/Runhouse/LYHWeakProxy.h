@@ -1,5 +1,5 @@
 //
-//  YYWeakProxy.h
+//  LYHWeakProxy.h
 //  YYKit <https://github.com/ibireme/YYKit>
 //
 //  Created by ibireme on 14/10/18.
@@ -24,14 +24,14 @@ NS_ASSUME_NONNULL_BEGIN
      }
      
      - (void)initTimer {
-        YYWeakProxy *proxy = [YYWeakProxy proxyWithTarget:self];
+        LYHWeakProxy *proxy = [LYHWeakProxy proxyWithTarget:self];
         _timer = [NSTimer timerWithTimeInterval:0.1 target:proxy selector:@selector(tick:) userInfo:nil repeats:YES];
      }
      
      - (void)tick:(NSTimer *)timer {...}
      @end
  */
-@interface YYWeakProxy : NSProxy
+@interface LYHWeakProxy : NSProxy
 
 /**
  The proxy target.

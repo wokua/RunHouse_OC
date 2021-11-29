@@ -1,5 +1,5 @@
 //
-//  YYWeakProxy.m
+//  LYHWeakProxy.m
 //  YYKit <https://github.com/ibireme/YYKit>
 //
 //  Created by ibireme on 14/10/18.
@@ -9,10 +9,10 @@
 //  LICENSE file in the root directory of this source tree.
 //
 
-#import "YYWeakProxy.h"
+#import "LYHWeakProxy.h"
 
 
-@implementation YYWeakProxy
+@implementation LYHWeakProxy
 
 - (instancetype)initWithTarget:(id)target {
     _target = target;
@@ -20,7 +20,7 @@
 }
 
 + (instancetype)proxyWithTarget:(id)target {
-    return [[YYWeakProxy alloc] initWithTarget:target];
+    return [[LYHWeakProxy alloc] initWithTarget:target];
 }
 
 - (id)forwardingTargetForSelector:(SEL)selector {
